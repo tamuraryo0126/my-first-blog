@@ -15,6 +15,6 @@ formatter = FuncFormatter(millions)
 
 fig, ax = plt.subplots()
 ax.yaxis.set_major_formatter(formatter)
-plt.bar(x, money)
+plt.barh(x, money)
 plt.yticks(x, ('Bill', 'Fred', 'Mary', 'Sue'))
 plt.show()
