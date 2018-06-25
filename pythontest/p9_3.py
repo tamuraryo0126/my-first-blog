@@ -2,6 +2,7 @@ from matplotlib.ticker import FuncFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 
+#グラフを縦棒グラフから横棒グラフへと変更した。
 x = np.arange(4)
 money = [1.5e5, 2.5e6, 5.5e6, 2.0e7]
 
